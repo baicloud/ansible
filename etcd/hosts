@@ -1,0 +1,4 @@
+[etcd]
+node1 ansible_host=10.138.0.17 ip=10.138.0.17 ansible_user=root ansible_ssh_pass=handhand ansible_become=true
+node2 ansible_host=10.138.0.18 ip=10.138.0.18 ansible_user=root ansible_ssh_pass=handhand ansible_become=true
+node3 ansible_host=10.138.0.19 ip=10.138.0.19 ansible_user=root ansible_ssh_pass=handhand ansible_become=true

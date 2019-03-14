@@ -1,6 +1,6 @@
 ---
 
-- hosts: node1
+- hosts: all
   any_errors_fatal: "true"
   roles:
     - { role: docker, tags: docker }
