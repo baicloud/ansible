@@ -1,0 +1,18 @@
+# ================================= yum 源 =================================
+
+aliyun_docker_yum_repo: http://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo
+docker_version_name: docker-ce-18.06.1.ce-3.el7
+
+
+# ================================= proxy代理 =================================
+
+# http_proxy: http://10.79.1.161:3128
+# https_proxy: http://10.79.1.161:3128
+# no_proxy: localhost,127.0.0.0/8
+docker_proxy_enable: false
+
+# ================================= docker参数 =================================
+
+insecure_registries:
+   - "https://mirror.aliyuncs.com"
+docker_storage_dir: "/var/lib/docker"
