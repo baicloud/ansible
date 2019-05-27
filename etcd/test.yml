@@ -1,6 +1,0 @@
----
-
-- hosts: etcd
-  any_errors_fatal: "true"
-  roles:
-    - { role: etcd, tags: etcd }
